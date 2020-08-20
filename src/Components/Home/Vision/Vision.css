@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Vis {
+  margin-top: 5rem;
+}
+
+.vision-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-width: 200px;
+}
+
+.vision-text {
+  padding: 2rem;
+}
+
+.vision-body h2 {
+  font-weight: 700;
+  font-size: 3.5vw;
+  text-transform: uppercase;
+  color: #222222d7;
+}
+
+.vision-body p {
+  text-align: justify;
+  padding-right: 4%;
+  margin: 2rem auto;
+  font-size: 2.3vmin;
+  line-height: 1.7rem;
+}
+
+.quote {
+  background: #f1f1f1;
+  padding: 5% 0 5% 35%;
+  position: relative;
+  z-index: -2;
+  margin: 8rem 0;
+}
+
+.quote img {
+  position: absolute;
+  width: 8%;
+  z-index: -1;
+  opacity: 0.05;
+  left: 50%;
+}
+
+.quote p {
+  font-family: 'Cookie', cursive !important;
+  font-size: 4vw;
+  letter-spacing: 3px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.whatDrivesUs {
+  margin-bottom: 8rem;
+}
+
+.whatDrivesUs img {
+  width: 70%;
+}
+
+.whatDrivesUs h1 {
+  font-weight: 700;
+  font-size: 3.5vw;
+  text-transform: uppercase;
+  color: #222222d7;
+  margin-bottom: 3rem;
+}
+
+.whatDrivesUs .col1 {
+  margin-left: 10%;
+}
+
+.whatDrivesUs li, .whatDrivesUs p {
+  margin-bottom: 1rem;
+  line-height: 1.7rem;
+  text-align: justify;
+}
+
+.whatDrivesUs p {
+  margin-top: 3rem;
+  text-align: justify;
+}
+/*# sourceMappingURL=Vision.css.map */

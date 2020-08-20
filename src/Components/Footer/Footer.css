@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Footer {
+  background: #373737;
+}
+
+.FooterTop {
+  padding: 2% 10% !important;
+}
+
+.PageLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.PageLinks h1 {
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.PageLinks a {
+  color: rgba(245, 245, 245, 0.527);
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: .6rem;
+}
+
+.PageLinks a:hover {
+  color: whitesmoke;
+}
+
+.SocialMedia h1 {
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.FooterBottom {
+  background: #222222;
+  padding: 1rem 0;
+}
+
+.FooterBottom p {
+  color: whitesmoke;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.ContactForm label {
+  color: rgba(245, 245, 245, 0.699);
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+.ContactForm h1 {
+  color: whitesmoke;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.ContactForm input, .ContactForm textarea {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #6b6b6b;
+  width: 20rem;
+  color: whitesmoke;
+  outline: none;
+  font-size: 14px;
+}
+
+.ContactForm button {
+  background: #f78d2a;
+  border: 2px solid rgba(255, 255, 255, 0.021);
+  padding: .3rem;
+  width: 6rem;
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: #373737;
+}
+
+.ContactForm button:hover {
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+}
+
+.ContactForm i {
+  color: white;
+}
+/*# sourceMappingURL=Footer.css.map */

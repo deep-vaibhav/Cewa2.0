@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+  color: #373737;
+  font-family: 'Montserrat', sans-serif !important;
+}
+.newsandblog {
+  margin-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  .News {
+    flex-wrap: wrap;
+    float: left;
+    margin-right: 7%;
+    font-family: "TrebuchetMS";
+    width: 46.5%;
+    min-width: 300px;
+    margin-bottom: 1rem;
+    .head {
+      display: flex;
+      justify-content: space-between;
+      h2 {
+        margin: 0;
+      }
+      h5 {
+        align-self: flex-end;
+        margin: 0;
+      }
+    }
+    .item {
+      display: flex;
+      margin-top: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #f1a048;
+      .date {
+        display: flex;
+        flex-direction: column;
+        background: radial-gradient(circle, #ffc000bd 16%, #f8902cbd 85%);
+        display: inline-block;
+        margin-right: 3%;
+        min-height: 108px;
+        padding: 2px;
+        text-align: center;
+        vertical-align: top;
+        width: 12%;
+        align-self: centers;
+        span {
+          font-size: 28px;
+          hr {
+            background-color: #f1a048;
+          }
+        }
+        .month {
+          border-bottom: medium none;
+          font-size: 13px;
+          line-height: 17px;
+          padding: 9px 0;
+          text-transform: uppercase;
+        }
+      }
+      .details {
+        font-size: 13px;
+        display: inline-block;
+        line-height: 18px;
+        vertical-align: top;
+        width: 83.5%;
+        .topic {
+          margin-bottom: 0.5rem;
+          font-size: 14px;
+        }
+        a {
+          text-decoration: none;
+        }
+        h5 {
+          font-family: "TrebuchetMS";
+          margin-bottom: 0px;
+          cursor: pointer;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  hr {
+    background-color: #f1a048;
+  }
+  .blog {
+    float: left;
+    width: 46.5%;
+    font-family: "TrebuchetMS";
+    flex-wrap: wrap;
+    .head {
+      display: flex;
+      color: #f60;
+      justify-content: space-between;
+      h2 {
+        margin: 0;
+      }
+      h5 {
+        margin: 0;
+        align-self: flex-end;
+      }
+    }
+    .item {
+      cursor: pointer;
+      margin-top: 1rem;
+      display: flex;
+      // background-color: #f2;
+      .item-img {
+        padding: 0.5rem;
+        img {
+          width: 7rem;
+        }
+      }
+      .item-text {
+        padding-left: 1rem;
+        width: 70%;
+        h3 {
+          font-size: 1.2rem;
+          color: #f8f9fa;
+          margin-bottom: 1;
+        }
+
+        .user {
+          display: flex;
+          align-items: center;
+          img {
+            width: 1.3rem;
+            height: 1.3rem;
+          }
+          p {
+            margin: 0;
+            color: #acacac;
+            margin-left: 0.5rem;
+            font-size: 10px;
+            letter-spacing: 0.1rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+          }
+        }
+        .date {
+          display: flex;
+          align-items: center;
+          margin-top: 0.2rem;
+          margin-bottom: 1rem;
+          img {
+            width: 1.3rem;
+            height: 1.3rem;
+          }
+          p {
+            margin: 0;
+            color: #acacac;
+            margin-left: 0.5rem;
+            font-size: 10px;
+            letter-spacing: 0.1rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+          }
+        }
+        .article {
+          margin-top: 0.2rem;
+          p {
+            font-size: 13px;
+            color: #e9ecef;
+            line-height: 1rem;
+            margin-bottom: 0;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+              sans-serif;
+            span {
+              color: #f60;
+              font-weight: 400;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  .newsandblog {
+    .News {
+      margin-right: 0;
+      width: 100%;
+    }
+    .blog {
+      width: 100%;
+      margin-left: 0;
+      .item {
+        .item-text {
+          width: 100%;
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}

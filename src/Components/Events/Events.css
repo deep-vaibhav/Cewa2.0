@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Events {
+  margin-top: 3rem;
+}
+
+.Events img {
+  width: 100% !important;
+  height: 20rem !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Events .slider {
+  width: 80%;
+  margin: 2rem auto 10rem auto;
+}
+
+.Events .event {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Events li {
+  margin-top: 1rem;
+}
+
+.Events h1 {
+  font-weight: 600;
+}
+/*# sourceMappingURL=Events.css.map */

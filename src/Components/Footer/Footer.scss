@@ -1,0 +1,96 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Footer {
+    background: #373737;
+}
+
+.FooterTop {
+    padding: 2% 10% !important;
+}
+
+.PageLinks {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        color: whitesmoke;
+        font-size: 18px;
+    }
+
+    a {
+        color: rgba(245, 245, 245, 0.527);
+        text-decoration: none;
+        font-size: 14px;
+        margin-top: .6rem;
+    }
+    a:hover {
+        color: whitesmoke;
+    }
+}
+
+.SocialMedia {
+    h1 {
+        color: whitesmoke;
+        font-size: 18px;
+    }
+}
+
+.FooterBottom {
+    background: #222222;
+    padding: 1rem 0;
+    
+    p {
+        color: whitesmoke;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+}
+
+.ContactForm {
+    label {
+        color: rgba(245, 245, 245, 0.699);
+        margin-top: 1rem;
+        font-size: 14px;
+    }
+    h1 {
+        color: whitesmoke;
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    input, textarea {
+        background: none;
+        border: none;
+        border-bottom: 2px solid rgb(107, 107, 107);
+        width: 20rem;
+        color: whitesmoke;
+        outline: none;
+        font-size: 14px;
+    }
+
+    button {
+        background: rgb(247, 141, 42);
+        border: 2px solid rgba(255, 255, 255, 0.021);
+        padding: .3rem;
+        width: 6rem;
+        margin-top: 1rem;
+        font-size: 14px;
+        font-weight: 600;
+        color: #373737;
+    }
+
+    button:hover {
+        transform: translateY(-10%);
+    }
+
+    i {
+        color: white;
+    }
+}
