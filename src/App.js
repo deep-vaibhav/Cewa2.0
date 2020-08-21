@@ -31,7 +31,7 @@ function App() {
         <Route exact path="/membership">
           <Membership />
         </Route>
-        <Route exact path="/contact">
+        <Route exact path="/contacts">
           <ContactUs />
         </Route>
       </Switch>

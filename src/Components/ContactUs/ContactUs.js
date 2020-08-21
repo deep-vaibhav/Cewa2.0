@@ -5,11 +5,13 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import GoogleMap from "../Map/Map";
 
+import './ContactUs.scss';
+
 
 class ContactUs extends React.Component {
     render() {
         return (
-            <Container>
+            <Container fluid className="contactus">
                 <Row>
                     <Col>
                         <GoogleMap />

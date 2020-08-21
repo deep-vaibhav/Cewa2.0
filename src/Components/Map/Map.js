@@ -22,7 +22,7 @@ class GoogleMap extends Component {
 
             window.document.body.appendChild(googleMapScript);
 
-            googleMapScript.addEventListener('load', function() {
+            googleMapScript.addEventListener('load', () => {
                 this.googleMap = this.createGoogleMap();
                 this.marker = this.createMarker();
             });
@@ -39,7 +39,7 @@ class GoogleMap extends Component {
             <div 
                 id="google-map"
                 ref={this.googleMapRef}
-                style={{width: '400px', height: '300px'}}
+                style={{width: '600px', height: '500px'}}
             />
         );
     }
