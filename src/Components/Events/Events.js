@@ -8,17 +8,22 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Events.scss";
-import image1 from "../../../src/Assets/image/event1/Picture1.jpg";
-import image2 from "../../../src/Assets/image/event1/Picture2.jpg";
-import image3 from "../../../src/Assets/image/event1/Picture3.jpg";
-import image4 from "../../../src/Assets/image/event1/Picture4.jpg";
-import image5 from "../../../src/Assets/image/event1/Picture5.jpg";
-import image6 from "../../../src/Assets/image/event1/Picture6.jpg";
-import image7 from "../../../src/Assets/image/event1/Picture7.jpg";
-import image8 from "../../../src/Assets/image/event1/Picture8.jpg";
-import image9 from "../../../src/Assets/image/event1/Picture9.jpg";
-import image10 from "../../../src/Assets/image/event1/Picture10.jpg";
-import image11 from "../../../src/Assets/image/event1/Picture11.jpg";
+import image1 from "../../../src/Assets/image/event1/1.jpg";
+import image2 from "../../../src/Assets/image/event1/2.jpg";
+import image3 from "../../../src/Assets/image/event1/3.jpg";
+import image4 from "../../../src/Assets/image/event1/4.jpg";
+import image5 from "../../../src/Assets/image/event1/5.jpg";
+import image6 from "../../../src/Assets/image/event1/6.jpg";
+import image7 from "../../../src/Assets/image/event1/7.jpg";
+import image8 from "../../../src/Assets/image/event1/8.jpg";
+import image9 from "../../../src/Assets/image/event1/9.jpg";
+import image10 from "../../../src/Assets/image/event1/10.jpg";
+import image11 from "../../../src/Assets/image/event1/11.jpg";
+import image12 from "../../../src/Assets/image/event1/12.jpg";
+import image13 from "../../../src/Assets/image/event1/13.jpg";
+import image14 from "../../../src/Assets/image/event1/14.jpg";
+import image15 from "../../../src/Assets/image/event1/15.jpg";
+
 
 
 import event2img1 from "../../../src/Assets/image/event2/Picture1.jpg";
@@ -28,35 +33,50 @@ import event2img4 from "../../../src/Assets/image/event2/Picture4.jpg";
 import event2img5 from "../../../src/Assets/image/event2/Picture5.jpg";
 
 
-import event3img1 from "../../../src/Assets/image/event3/Picture1.jpg";
-import event3img2 from "../../../src/Assets/image/event3/Picture2.png";
-import event3img3 from "../../../src/Assets/image/event3/Picture3.png";
-import event3img4 from "../../../src/Assets/image/event3/Picture4.png";
+import event3img1 from "../../../src/Assets/image/event3/clean1.png";
+import event3img2 from "../../../src/Assets/image/event3/clean2.png";
+import event3img3 from "../../../src/Assets/image/event3/clean3.png";
+import event3img4 from "../../../src/Assets/image/event3/clean4.png";
 
 
 import event4img1 from "../../../src/Assets/image/event4/Picture1.png";
-import event4img2 from "../../../src/Assets/image/event4/Picture2.jpg";
+import event4img2 from "../../../src/Assets/image/event4/Picture2.png";
 import event4img3 from "../../../src/Assets/image/event4/Picture3.png";
-import event4img4 from "../../../src/Assets/image/event4/Picture4.jpg";
+import event4img4 from "../../../src/Assets/image/event4/Picture4.png";
 import event4img5 from "../../../src/Assets/image/event4/Picture5.png";
 import event4img6 from "../../../src/Assets/image/event4/Picture6.png";
+import event4img7 from "../../../src/Assets/image/event4/Picture7.png";
+import event4img8 from "../../../src/Assets/image/event4/Picture8.png";
+import event4img9 from "../../../src/Assets/image/event4/Picture9.png";
+import event4img10 from "../../../src/Assets/image/event4/Picture10.png";
+import event4img11 from "../../../src/Assets/image/event4/Picture11.png";
 
 
-import event5img1 from "../../../src/Assets/image/event5/Picture1.jpg";
-import event5img2 from "../../../src/Assets/image/event5/Picture2.jpg";
+import event5img1 from "../../../src/Assets/image/event5/Picture1.png";
+import event5img2 from "../../../src/Assets/image/event5/Picture2.png";
+import event5img3 from "../../../src/Assets/image/event5/Picture3.png";
 
 
 import event6img1 from "../../../src/Assets/image/event6/Picture2.jpg";
 import event6img2 from "../../../src/Assets/image/event6/Picture3.jpg";
 import event6img3 from "../../../src/Assets/image/event6/Picture4.jpg";
 import event6img4 from "../../../src/Assets/image/event6/Picture5.jpg";
-import event6img5 from "../../../src/Assets/image/event6/Picture6.jpg";
 
 
-import event7img1 from "../../../src/Assets/image/event7/Picture3.png";
-import event7img3 from "../../../src/Assets/image/event7/Picture5.png";
-import event7img4 from "../../../src/Assets/image/event7/Picture8.png";
-import event7img5 from "../../../src/Assets/image/event7/Picture9.png";
+
+import event7img1 from "../../../src/Assets/image/event7/1.jpg";
+import event7img2 from "../../../src/Assets/image/event7/2.jpg";
+import event7img3 from "../../../src/Assets/image/event7/3.jpg";
+import event7img4 from "../../../src/Assets/image/event7/4.jpg";
+import event7img5 from "../../../src/Assets/image/event7/5.jpg";
+import event7img6 from "../../../src/Assets/image/event7/6.jpg";
+import event7img7 from "../../../src/Assets/image/event7/7.jpg";
+import event7img8 from "../../../src/Assets/image/event7/8.jpg";
+import event7img9 from "../../../src/Assets/image/event7/9.jpg";
+import event7img10 from "../../../src/Assets/image/event7/10.jpg";
+import event7img11 from "../../../src/Assets/image/event7/11.jpg";
+import event7img12 from "../../../src/Assets/image/event7/12.jpg";
+import event7img13 from "../../../src/Assets/image/event7/13.jpg";
 
 
 import event8img1 from "../../../src/Assets/image/8/E10-1.jpg";
@@ -73,6 +93,12 @@ import event9img3 from "../../../src/Assets/image/9/E11-3.jpg";
 import event10img1 from "../../../src/Assets/image/10/12-1.jpg";
 import event10img2 from "../../../src/Assets/image/10/12-2.jpg";
 import event10img3 from "../../../src/Assets/image/10/12-3.jpg";
+import event10img4 from "../../../src/Assets/image/10/12-4.jpg";
+import event10img5 from "../../../src/Assets/image/10/12-5.jpg";
+import event10img6 from "../../../src/Assets/image/10/12-6.jpg";
+import event10img7 from "../../../src/Assets/image/10/12-7.jpg";
+import event10img8 from "../../../src/Assets/image/10/12-8.jpg";
+import event10img9 from "../../../src/Assets/image/10/12-9.jpg";
 
 
 import event11img1 from "../../../src/Assets/image/13/13-1.jpg";
@@ -80,7 +106,6 @@ import event11img2 from "../../../src/Assets/image/13/13-2.jpg";
 import event11img3 from "../../../src/Assets/image/13/13-3.jpg";
 
 import event12img1 from "../../../src/Assets/image/16/14-1.jpg";
-import event12img2 from "../../../src/Assets/image/16/14-2.jpg";
 import event12img3 from "../../../src/Assets/image/16/14-3.jpg";
 
 class Events extends React.Component {
@@ -131,7 +156,7 @@ class Events extends React.Component {
                         </ul>
                     </Col>
                 </Row>
-                <Slider {...settings} className="slider">
+                <Slider {...settings4} className="slider">
                     <img src={image1}></img>
                     <img src={image2}></img>
                     <img src={image3}></img>
@@ -143,6 +168,10 @@ class Events extends React.Component {
                     <img src={image9}></img>
                     <img src={image10}></img>
                     <img src={image11}></img>
+                    <img src={image12}></img>
+                    <img src={image13}></img>
+                    <img src={image14}></img>
+                    <img src={image15}></img>
                 </Slider>
 
 
@@ -155,12 +184,10 @@ class Events extends React.Component {
                             </li>
                     </ul>
                 </Row>
-                <Slider {...settings} className="slider">
+                <Slider {...settings3} className="slider">
                     <img src={event2img1}></img>
-                    <img src={event2img2}></img>
                     <img src={event2img3}></img>
-                    <img src={event2img4}></img>
-                    <img src={event2img5}></img>
+                    
                 </Slider>
 
 
@@ -193,6 +220,10 @@ class Events extends React.Component {
                     <img src={event4img4}></img>
                     <img src={event4img5}></img>
                     <img src={event4img6}></img>
+                    <img src={event4img7}></img>
+                    <img src={event4img8}></img>
+                    <img src={event4img9}></img>
+                    <img src={event4img10}></img>
                 </Slider>
 
 
@@ -203,9 +234,10 @@ class Events extends React.Component {
                         <li>Prizes were distributed for the appreciation of kids and to the winners.</li>
                     </ul>
                 </Row>
-                <Slider {...settings3} className="slider">
+                <Slider {...settings4} className="slider">
                     <img src={event5img1}></img>
                     <img src={event5img2}></img>
+                    <img src={event5img3}></img>
                 </Slider>
 
 
@@ -221,7 +253,6 @@ class Events extends React.Component {
                     <img src={event6img2}></img>
                     <img src={event6img3}></img>
                     <img src={event6img4}></img>
-                    <img src={event6img5}></img>
                 </Slider>
 
 
@@ -232,11 +263,20 @@ class Events extends React.Component {
                         <li>They were informed about the use of paper bags instead of polythenes.</li>
                     </ul>
                 </Row>
-                <Slider {...settings4} className="slider">
+                <Slider {...settings2} className="slider">
                     <img src={event7img1}></img>
+                    <img src={event7img2}></img>
                     <img src={event7img3}></img>
                     <img src={event7img4}></img>
                     <img src={event7img5}></img>
+                    <img src={event7img6}></img>
+                    <img src={event7img7}></img>
+                    <img src={event7img8}></img>
+                    <img src={event7img9}></img>
+                    <img src={event7img10}></img>
+                    <img src={event7img11}></img>
+                    <img src={event7img12}></img>
+                    <img src={event7img13}></img>
                 </Slider>
 
 
@@ -276,10 +316,16 @@ class Events extends React.Component {
                         <li>The event took place in Lucknow, Uttar Pradesh.</li>
                     </ul>
                 </Row>
-                <Slider {...settings4} className="slider">
+                <Slider {...settings} className="slider">
                     <img src={event10img1}></img>
                     <img src={event10img2}></img>
                     <img src={event10img3}></img>
+                    <img src={event10img4}></img>
+                    <img src={event10img5}></img>
+                    <img src={event10img6}></img>
+                    <img src={event10img7}></img>
+                    <img src={event10img8}></img>
+                    <img src={event10img9}></img>
                 </Slider>
 
 
@@ -297,15 +343,14 @@ class Events extends React.Component {
 
 
                 <Row className="event">
-                    <h1>Plantation Drive</h1>
+                    <h1 style={{width: '100%'}}>Plantation Drive</h1>
                     <ul>
                         <li>CEWA members planted trees in different parts of Greater Noida and Delhi.</li>
                         <li>It is the initiative taken by CEWA Foundation on the occasion of World Environment Day.</li>
                     </ul>
                 </Row>
-                <Slider {...settings4} className="slider">
+                <Slider {...settings3} className="slider">
                     <img src={event12img1}></img>
-                    <img src={event12img2}></img>
                     <img src={event12img3}></img>
                 </Slider>
             </Container>
