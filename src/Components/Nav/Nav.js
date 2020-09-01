@@ -6,22 +6,43 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
-const Nav = () => {
-  
+class Nav extends React.Component {
+
+  componentDidMount() {
+    const nav_button = document.querySelector('.Nav-button');
+    const nav = document.querySelector('.Nav-li');
+    const navLinks = document.querySelectorAll('.Nav-li li');
+    console.log(navLinks);
+    
+    nav_button.addEventListener('click', () => {
+      nav.classList.toggle('nav-active');
+
+      navLinks.forEach((link, index) => {
+        if (link.style.animation) {
+          link.style.animation = '';
+        }
+        else {
+          link.style.animation = `navlinkFade 0.5s ease forwards ${index / 7 + 0.5 }s`;
+        }
+        });
+
+        nav_button.classList.toggle('toggle');
+    });
+
+    
+  }
+
+  render() {
   return (
     <div className="Nav">
 
-      <div class="Nav-button">
-        <div className="nav-line"></div>
-        <div className="nav-line"></div>
-        <div className="nav-line"></div>
-      </div>
 
       <div className="Nav-title">
         <a href="https://www.cewa.ga">
           <img src={logo} alt="logo" />
         </a>
       </div>
+
       <div className="Nav-li">
         <Link to="./about">
           <li>About us</li>
@@ -40,6 +61,7 @@ const Nav = () => {
           <li>Contact Us</li>
         </Link>
       </div>
+
       {/* <div className="Counter">
         <div className="counter-text">
           <p>Total Visitors</p>
@@ -75,7 +97,15 @@ const Nav = () => {
           </div>
         )}
       </div> */}
+
+      <div class="Nav-button">
+        <div className="nav-line line1"></div>
+        <div className="nav-line line2"></div>
+        <div className="nav-line line3"></div>
+      </div>
+
     </div>
   );
+    }
 };
 export default Nav;

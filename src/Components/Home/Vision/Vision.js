@@ -21,10 +21,10 @@ class Vision extends React.Component {
         return (
             <Container fluid className="Vis">
                 <Row className="vision-text">
-                    <Col className="vision-img">
+                    <Col md className="vision-img">
                         <img src={img} alt="img"></img>
                     </Col>
-                    <Col className="vision-body">
+                    <Col md className="vision-body">
                         <h2> Our Vision</h2>
                         <p>
                         To work for the betterment of the underprivileged children so that
@@ -52,7 +52,7 @@ class Vision extends React.Component {
                 </Row>
 
                 <Row className="whatDrivesUs">
-                    <Col className="col1">
+                    <Col md className="col1">
                         <h1>What drives us?</h1>
                         <ul>
                             <li>In a country with a population of more than 1.3 billion, 1/3rd of them starve for their daily bread and hold the largest share of the world’s extreme poor. </li>
@@ -65,7 +65,7 @@ class Vision extends React.Component {
                         We yearn for a more influential society free from all forms of exploitation and discrimination, where everyone has equal opportunities to perceive their potential. 
                         </p>
                     </Col>
-                    <Col className="col2">
+                    <Col md className="col2">
                         <img src={img2}></img>
                     </Col>
                 </Row>
