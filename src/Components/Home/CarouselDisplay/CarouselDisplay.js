@@ -5,15 +5,24 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import "./CarouselDisplay.scss";
-import img from "../../../../src/Assets/image/vision_img.jpg";
+import img from "../../../../src/Assets/image/vision_img2.png";
 
-
-function AnimateHero() {
-    let container = useRef(null);
-    let image = useRef(null);
-}
+import TweenLite from 'gsap';
 
 class CarouselDisplay extends React.Component {
+    constructor(props) {
+        super(props);
+        this.headerText = null;
+        this.paraText = null;
+        this.buttonEl = null;
+        this.myTween = null;
+    }
+
+    componentDidMount() {
+        this.myTween = TweenLite.to(this.headerText, 1, {opacity: 1, y: -20});
+        this.myTween = TweenLite.to(this.paraText, 1.5, {opacity: 1, y: -20});
+        this.myTween = TweenLite.to(this.buttonEl, 2, {opacity: 1, y: -20});
+    }
 
     render() {
         return (
@@ -22,8 +31,10 @@ class CarouselDisplay extends React.Component {
                     <img src={img}></img>
                     
                     <div className="BannerText">
-                        <h1>"We are the future"</h1>
-                        <p>There can be no keener revelation of a society's soul than the way in which it treats its children</p>
+                        <h1 ref={div => this.headerText = div}>We are the future</h1>
+                        <p ref={div => this.paraText = div}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                            quis nostrud exercitation ullamco laboris nisi ut.</p>
+                        <button ref={div => this.buttonEl = div}>EXPLORE</button>
                     </div>
                 </Row>
             </Container>

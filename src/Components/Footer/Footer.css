@@ -44,6 +44,18 @@
   font-size: 18px;
 }
 
+.SocialMedia li, .SocialMedia a {
+  color: rgba(245, 245, 245, 0.527);
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: .6rem;
+  list-style: none;
+}
+
+.SocialMedia a:hover {
+  color: whitesmoke;
+}
+
 .FooterBottom {
   background: #222222;
   padding: 1rem 0;

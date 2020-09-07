@@ -5,10 +5,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import "./Footer.scss";
-import FacebookIcon from '@material-ui/icons/Facebook';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import TwitterIcon from '@material-ui/icons/Twitter';
-
 
 function Map() {
 
@@ -29,17 +25,11 @@ class Footer extends React.Component {
                     </Col>
                     <Col className="SocialMedia">
                         <h1>Social Media</h1>
-                        <div className="Icons">
-                        <a href="#">
-                            <i class="fab fa-facebook-square"></i>
-                        </a>
-                        <a href="#"> 
-                            
-                        </a>
-                        <a href="#">
-                            
-                        </a>
-                        </div>
+                        <ul className="SMlinks">
+                            <li><a href="https://www.facebook.com/cewa.ngo.37?epa=SEARCH_BOX" target="_blank_">Facebook</a></li>
+                            <li><a href="https://www.instagram.com/_cewa_foundation_/" target="_blank_">Instagram</a></li>
+                            <li><a href="https://twitter.com/NgoCewa" target="_blank_">Twitter</a></li>
+                        </ul>
                     </Col>
                     <Col className="ContactForm">
                         <h1>get in touch</h1>

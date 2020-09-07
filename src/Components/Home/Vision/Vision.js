@@ -10,13 +10,26 @@ import img from '../../../Assets/image/vision.jpg';
 import img2 from '../../../Assets/image/driveImg.jpg';
 import quote from '../../../Assets/image/quote.png';
 
+import TweenLite from 'gsap';
+import ScrollTrigger from 'gsap';
+import gsap from 'gsap';
+import { _sortPropTweensByPriority } from "gsap/gsap-core";
+
 class Vision extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
 
         };
+        this.OurVision = null;
+        this.myTween = null;
     }
+
+    componentDidMount() {
+       
+    }
+
+
     render() {
         return (
             <Container fluid className="Vis">
@@ -25,7 +38,7 @@ class Vision extends React.Component {
                         <img src={img} alt="img"></img>
                     </Col>
                     <Col md className="vision-body">
-                        <h2> Our Vision</h2>
+                        <h2 ref={div => this.OurVision = div}> Our Vision</h2>
                         <p>
                         To work for the betterment of the underprivileged children so that
                         they can enlighten the future of the world’s largest Democracy.

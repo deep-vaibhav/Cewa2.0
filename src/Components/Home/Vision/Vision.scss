@@ -25,9 +25,10 @@
 .vision-body {
     h2 {
         font-weight: 700;
-        font-size: 3.5vw;
+        font-size: 7vmin;
         text-transform: uppercase;
-        color: #222222d7;
+        color: #222222;
+        font-family: 'Lora' !important;
     }
 
     p {
@@ -35,7 +36,8 @@
         padding-right: 4%;
         margin: 2rem auto;
         font-size: 2.3vmin;
-        line-height: 1.7rem;
+        line-height: 2rem;
+        font-family: 'Lora' !important;
     }
 }
 
@@ -56,9 +58,8 @@
 
     p {
         font-family: 'Cookie', cursive !important;
-        font-size: 4vw;
+        font-size: 8.5vmin;
         letter-spacing: 3px;
-        align-self: center;
     }
 }
 .whatDrivesUs {
@@ -70,10 +71,11 @@
 
     h1 {
         font-weight: 700;
-        font-size: 3.5vw;
+        font-size: 7vmin;
         text-transform: uppercase;
         color: #222222d7;
         margin-bottom: 3rem;
+        font-family: 'Lora' !important;
     }
 
     .col1 {
@@ -83,10 +85,29 @@
         margin-bottom: 1rem;
         line-height: 1.7rem;
         text-align: justify;
+        font-family: 'Lora' !important;
+        font-size: 2.3vmin;
     }
 
     p {
         margin-top: 3rem;
         text-align: justify;
     }
+}
+
+@media (max-width: 768px) {
+    .vision-body {
+        h2 {
+            margin-top: 1rem;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+    .whatDrivesUs {
+        li {
+            font-size: 15px;
+        }
+    }
+    
 }

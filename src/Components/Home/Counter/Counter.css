@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.counter {
+  padding: 7rem 5rem !important;
+  background: #d65600;
+}
+
+.counter h1, .counter p {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.counter h1 {
+  font-size: 3.7rem;
+  font-weight: 700;
+}
+/*# sourceMappingURL=Counter.css.map */
