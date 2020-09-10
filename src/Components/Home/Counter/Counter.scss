@@ -5,8 +5,9 @@
 }
 
 .counter {
-    padding: 7rem 5rem !important;
-    background: rgb(214, 86, 0);
+    padding: 5rem 5rem !important;
+    background: rgb(235,128,48);
+    background: linear-gradient(71deg, rgba(235,128,48,1) 0%, rgba(235,128,48,1) 0%, rgba(231,201,26,1) 100%);
     h1, p {
         text-align: center;
         color: whitesmoke;

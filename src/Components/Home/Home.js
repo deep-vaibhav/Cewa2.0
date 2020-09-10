@@ -6,6 +6,7 @@ import Vision from "./Vision/Vision";
 import NewsAndBLog from "./NewsAndBlog/NewsAndBlog";
 import CarouselDisplay from "./CarouselDisplay/CarouselDisplay";
 import Counter from "./Counter/Counter";
+import Testimonial from "./Testimonial/Testimonial";
 
 const Home = (props) => {
   return (
@@ -13,7 +14,7 @@ const Home = (props) => {
       <CarouselDisplay />
       <Counter />
       <Vision />
-      
+      <Testimonial />
     </div>
   );
 };

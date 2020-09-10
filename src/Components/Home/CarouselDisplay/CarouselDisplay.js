@@ -32,8 +32,7 @@ class CarouselDisplay extends React.Component {
                     
                     <div className="BannerText">
                         <h1 ref={div => this.headerText = div}>We are the future</h1>
-                        <p ref={div => this.paraText = div}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                            quis nostrud exercitation ullamco laboris nisi ut.</p>
+                        <p ref={div => this.paraText = div}>Every child deserves a chance at life, the right to follow their dreams, an opportunity to embrace their potential, and some humanity, and care. Therefore, every child must be treated fair. If we stand up for the impoverished children, we stand for a better society, a better tomorrow, and a brighter future.</p>
                         <button ref={div => this.buttonEl = div}>EXPLORE</button>
                     </div>
                 </Row>
