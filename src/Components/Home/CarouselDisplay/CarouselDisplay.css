@@ -10,7 +10,7 @@
 
 .Display img {
   width: 100%;
-  height: 85vh;
+  height: calc(100vh - 5rem);
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-filter: grayscale(100%);

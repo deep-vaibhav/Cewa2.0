@@ -15,6 +15,7 @@ const Home = (props) => {
       <Counter />
       <Vision />
       <Testimonial />
+      <NewsAndBLog />
     </div>
   );
 };

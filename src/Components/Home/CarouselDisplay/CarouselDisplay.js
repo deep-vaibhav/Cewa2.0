@@ -8,6 +8,7 @@ import "./CarouselDisplay.scss";
 import img from "../../../../src/Assets/image/vision_img2.png";
 
 import TweenLite from 'gsap';
+import { motion } from 'framer-motion';
 
 class CarouselDisplay extends React.Component {
     constructor(props) {
@@ -18,11 +19,11 @@ class CarouselDisplay extends React.Component {
         this.myTween = null;
     }
 
-    componentDidMount() {
-        this.myTween = TweenLite.to(this.headerText, 1, {opacity: 1, y: -20});
-        this.myTween = TweenLite.to(this.paraText, 1.5, {opacity: 1, y: -20});
-        this.myTween = TweenLite.to(this.buttonEl, 2, {opacity: 1, y: -20});
-    }
+    // componentDidMount() {
+    //     this.myTween = TweenLite.to(this.headerText, 1, {opacity: 1, y: -20});
+    //     this.myTween = TweenLite.to(this.paraText, 1.5, {opacity: 1, y: -20});
+    //     this.myTween = TweenLite.to(this.buttonEl, 2, {opacity: 1, y: -20});
+    // }
 
     render() {
         return (
@@ -31,9 +32,36 @@ class CarouselDisplay extends React.Component {
                     <img src={img}></img>
                     
                     <div className="BannerText">
-                        <h1 ref={div => this.headerText = div}>We are the future</h1>
-                        <p ref={div => this.paraText = div}>Every child deserves a chance at life, the right to follow their dreams, an opportunity to embrace their potential, and some humanity, and care. Therefore, every child must be treated fair. If we stand up for the impoverished children, we stand for a better society, a better tomorrow, and a brighter future.</p>
-                        <button ref={div => this.buttonEl = div}>EXPLORE</button>
+                        <motion.h1 
+                            ref={div => this.headerText = div}
+                            animate = {{
+                                opacity: 1,
+                                y: -5,
+                                
+                            }}
+                            transition = {{ ease: "easeOut", duration: 1 }}
+                            >
+                            We are the future
+                        </motion.h1>
+                        <motion.p 
+                            ref={div => this.paraText = div}
+                            animate = {{
+                                opacity: 1,
+                                y: -5,
+                                
+                            }}
+                            transition = {{ ease: "easeOut", duration: 1 }}
+                        >
+                            Every child deserves a chance at life, the right to follow their dreams, an opportunity to embrace their potential, and some humanity, and care. Therefore, every child must be treated fair. If we stand up for the impoverished children, we stand for a better society, a better tomorrow, and a brighter future.
+                        </motion.p>
+                        <motion.button 
+                            whileHover={{ scale: 1.05,
+                                            y: -4,
+                                         }}
+                            ref={div => this.buttonEl = div}
+                        >
+                            EXPLORE
+                        </motion.button>
                     </div>
                 </Row>
             </Container>

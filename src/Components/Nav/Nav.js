@@ -38,9 +38,9 @@ class Nav extends React.Component {
 
 
       <div className="Nav-title">
-        <a href="https://www.cewa.ga">
+        <Link to="">
           <img src={logo} alt="logo" />
-        </a>
+        </Link>
       </div>
 
       <div className="Nav-li">

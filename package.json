@@ -12,7 +12,7 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.2",
     "colcade": "^0.2.0",
-    "framer-motion": "^2.4.3-beta.2",
+    "framer-motion": "^2.6.10",
     "google-map-react": "^2.0.8",
     "google-maps-react": "^2.0.6",
     "gsap": "^3.5.1",
@@ -26,6 +26,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.2",
     "react-slick": "^0.27.9",
+    "react-use": "^15.3.4",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {

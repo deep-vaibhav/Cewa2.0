@@ -6,8 +6,9 @@
 }
 
 .counter {
-  padding: 7rem 5rem !important;
-  background: #d65600;
+  padding: 5rem 5rem !important;
+  background: #eb8030;
+  background: linear-gradient(71deg, #eb8030 0%, #eb8030 0%, #e7c91a 100%);
 }
 
 .counter h1, .counter p {

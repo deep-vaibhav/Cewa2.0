@@ -6,8 +6,8 @@ import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
 
 import "./Testimonial.scss";
-import image1 from "../../../../src/Assets/image/prakhar1.png";
-import image2 from "../../../../src/Assets/image/harsha1.png";
+import image1 from "../../../../src/Assets/image/prakhar1.jpg";
+import image2 from "../../../../src/Assets/image/harsha1.jpg";
 
 class Testimonial extends React.Component {
     render() {
