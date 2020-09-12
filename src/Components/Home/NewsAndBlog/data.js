@@ -1,11 +1,11 @@
-import blog1 from "../../../Assets/image/10/12-1.jpg";
-import blog2 from "../../../../src/Assets/image/event2/Picture4.jpg";
-import blog3 from "../../../../src/Assets/image/event3/clean2.png";
-import blog4 from "../../../../src/Assets/image/event4/Picture1.png";
-import blog6 from "../../../../src/Assets/image/event6/Picture4.jpg";
-import blog7 from "../../../../src/Assets/image/13/13-1.jpg";
-import blog8 from "../../../../src/Assets/image/16/14-1.jpg";
-import blog5 from "../../../../src/Assets/image/16/14-1.jpg";
+import blog1 from "../../../Assets/image/10/12_1.jpg";
+import blog2 from "../../../../src/Assets/image/event2/picture4.jpg";
+import blog3 from "../../../../src/Assets/image/event3/clean2.jpg";
+import blog4 from "../../../../src/Assets/image/event4/picture1.jpg";
+import blog6 from "../../../../src/Assets/image/event6/picture4.jpg";
+import blog7 from "../../../../src/Assets/image/13/13_1.jpg";
+import blog8 from "../../../../src/Assets/image/16/14_1.jpg";
+import blog5 from "../../../../src/Assets/image/16/14_1.jpg";
 const data = {
   news: {
     id: 0,
@@ -62,7 +62,7 @@ const data = {
     {
       title: "Food Distribution - 1",
       img: blog6,
-      user: "Prakhar Pratap Sign",
+      user: "Prakhar Pratap Singh",
       date: "16-Sept-2020",
       article:
         "Distribution of food packets took place in Bishrath, Noida and was headed by CEWA coordinator Mr. Mukesh Pratap Singh & his team...",

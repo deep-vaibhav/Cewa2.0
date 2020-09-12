@@ -26,41 +26,37 @@ import image15 from "../../../src/Assets/image/event1/15.jpg";
 
 
 
-import event2img1 from "../../../src/Assets/image/event2/Picture1.jpg";
-import event2img2 from "../../../src/Assets/image/event2/Picture2.jpg";
-import event2img3 from "../../../src/Assets/image/event2/Picture3.jpg";
-import event2img4 from "../../../src/Assets/image/event2/Picture4.jpg";
-import event2img5 from "../../../src/Assets/image/event2/Picture5.jpg";
+import event2img1 from "../../../src/Assets/image/event2/picture1.jpg";
+import event2img3 from "../../../src/Assets/image/event2/picture3.jpg";
 
 
-import event3img1 from "../../../src/Assets/image/event3/clean1.png";
-import event3img2 from "../../../src/Assets/image/event3/clean2.png";
-import event3img3 from "../../../src/Assets/image/event3/clean3.png";
-import event3img4 from "../../../src/Assets/image/event3/clean4.png";
+import event3img1 from "../../../src/Assets/image/event3/clean1.jpg";
+import event3img2 from "../../../src/Assets/image/event3/clean2.jpg";
+import event3img3 from "../../../src/Assets/image/event3/clean3.jpg";
+import event3img4 from "../../../src/Assets/image/event3/clean4.jpg";
 
 
-import event4img1 from "../../../src/Assets/image/event4/Picture1.png";
-import event4img2 from "../../../src/Assets/image/event4/Picture2.png";
-import event4img3 from "../../../src/Assets/image/event4/Picture3.png";
-import event4img4 from "../../../src/Assets/image/event4/Picture4.png";
-import event4img5 from "../../../src/Assets/image/event4/Picture5.png";
-import event4img6 from "../../../src/Assets/image/event4/Picture6.png";
-import event4img7 from "../../../src/Assets/image/event4/Picture7.png";
-import event4img8 from "../../../src/Assets/image/event4/Picture8.png";
-import event4img9 from "../../../src/Assets/image/event4/Picture9.png";
-import event4img10 from "../../../src/Assets/image/event4/Picture10.png";
-import event4img11 from "../../../src/Assets/image/event4/Picture11.png";
+import event4img1 from "../../../src/Assets/image/event4/picture1.jpg";
+import event4img2 from "../../../src/Assets/image/event4/picture2.jpg";
+import event4img3 from "../../../src/Assets/image/event4/picture3.jpg";
+import event4img4 from "../../../src/Assets/image/event4/picture4.jpg";
+import event4img5 from "../../../src/Assets/image/event4/picture5.jpg";
+import event4img6 from "../../../src/Assets/image/event4/picture6.jpg";
+import event4img7 from "../../../src/Assets/image/event4/picture7.jpg";
+import event4img8 from "../../../src/Assets/image/event4/picture8.jpg";
+import event4img9 from "../../../src/Assets/image/event4/picture9.jpg";
+import event4img10 from "../../../src/Assets/image/event4/picture10.jpg";
 
 
-import event5img1 from "../../../src/Assets/image/event5/Picture1.png";
-import event5img2 from "../../../src/Assets/image/event5/Picture2.png";
-import event5img3 from "../../../src/Assets/image/event5/Picture3.png";
+import event5img1 from "../../../src/Assets/image/event5/picture1.jpg";
+import event5img2 from "../../../src/Assets/image/event5/picture2.jpg";
+import event5img3 from "../../../src/Assets/image/event5/picture3.jpg";
 
 
-import event6img1 from "../../../src/Assets/image/event6/Picture2.jpg";
-import event6img2 from "../../../src/Assets/image/event6/Picture3.jpg";
-import event6img3 from "../../../src/Assets/image/event6/Picture4.jpg";
-import event6img4 from "../../../src/Assets/image/event6/Picture5.jpg";
+import event6img1 from "../../../src/Assets/image/event6/picture2.jpg";
+import event6img2 from "../../../src/Assets/image/event6/picture3.jpg";
+import event6img3 from "../../../src/Assets/image/event6/picture4.jpg";
+import event6img4 from "../../../src/Assets/image/event6/picture5.jpg";
 
 
 
@@ -79,34 +75,34 @@ import event7img12 from "../../../src/Assets/image/event7/12.jpg";
 import event7img13 from "../../../src/Assets/image/event7/13.jpg";
 
 
-import event8img1 from "../../../src/Assets/image/8/E10-1.jpg";
-import event8img2 from "../../../src/Assets/image/8/E10-2.jpg";
-import event8img3 from "../../../src/Assets/image/8/E10-3.jpg";
-import event8img4 from "../../../src/Assets/image/8/E10-4.jpg";
+import event8img1 from "../../../src/Assets/image/8/e10_1.jpg";
+import event8img2 from "../../../src/Assets/image/8/e10_2.jpg";
+import event8img3 from "../../../src/Assets/image/8/e10_3.jpg";
+import event8img4 from "../../../src/Assets/image/8/e10_4.jpg";
 
 
-import event9img1 from "../../../src/Assets/image/9/E11-1.jpg";
-import event9img2 from "../../../src/Assets/image/9/E11-2.jpg";
-import event9img3 from "../../../src/Assets/image/9/E11-3.jpg";
+import event9img1 from "../../../src/Assets/image/9/e11_1.jpg";
+import event9img2 from "../../../src/Assets/image/9/e11_2.jpg";
+import event9img3 from "../../../src/Assets/image/9/e11_3.jpg";
 
 
-import event10img1 from "../../../src/Assets/image/10/12-1.jpg";
-import event10img2 from "../../../src/Assets/image/10/12-2.jpg";
-import event10img3 from "../../../src/Assets/image/10/12-3.jpg";
-import event10img4 from "../../../src/Assets/image/10/12-4.jpg";
-import event10img5 from "../../../src/Assets/image/10/12-5.jpg";
-import event10img6 from "../../../src/Assets/image/10/12-6.jpg";
-import event10img7 from "../../../src/Assets/image/10/12-7.jpg";
-import event10img8 from "../../../src/Assets/image/10/12-8.jpg";
-import event10img9 from "../../../src/Assets/image/10/12-9.jpg";
+import event10img1 from "../../../src/Assets/image/10/12_1.jpg";
+import event10img2 from "../../../src/Assets/image/10/12_2.jpg";
+import event10img3 from "../../../src/Assets/image/10/12_3.jpg";
+import event10img4 from "../../../src/Assets/image/10/12_4.jpg";
+import event10img5 from "../../../src/Assets/image/10/12_5.jpg";
+import event10img6 from "../../../src/Assets/image/10/12_6.jpg";
+import event10img7 from "../../../src/Assets/image/10/12_7.jpg";
+import event10img8 from "../../../src/Assets/image/10/12_8.jpg";
+import event10img9 from "../../../src/Assets/image/10/12_9.jpg";
 
 
-import event11img1 from "../../../src/Assets/image/13/13-1.jpg";
-import event11img2 from "../../../src/Assets/image/13/13-2.jpg";
-import event11img3 from "../../../src/Assets/image/13/13-3.jpg";
+import event11img1 from "../../../src/Assets/image/13/13_1.jpg";
+import event11img2 from "../../../src/Assets/image/13/13_2.jpg";
+import event11img3 from "../../../src/Assets/image/13/13_3.jpg";
 
-import event12img1 from "../../../src/Assets/image/16/14-1.jpg";
-import event12img3 from "../../../src/Assets/image/16/14-3.jpg";
+import event12img1 from "../../../src/Assets/image/16/14_1.jpg";
+import event12img3 from "../../../src/Assets/image/16/14_3.jpg";
 
 class Events extends React.Component {
   
