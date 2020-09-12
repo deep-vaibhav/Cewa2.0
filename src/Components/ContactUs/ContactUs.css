@@ -8,4 +8,64 @@
 .contactus {
   margin: 5rem !important;
 }
+
+.contactus img {
+  width: 85%;
+}
+
+.contactus .contact-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contactus .social {
+  margin: 1.2rem 0;
+}
+
+.contactus .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contactus .icons img {
+  width: 1.5rem;
+  -webkit-filter: opacity(60%);
+          filter: opacity(60%);
+  cursor: pointer;
+}
+
+.contactus .icons .insta {
+  margin: 0 1rem;
+}
+
+.contactus .icons img:hover {
+  -webkit-filter: opacity(100%);
+          filter: opacity(100%);
+}
+
+.contactus .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: .2rem 0;
+}
+
+.contactus .details img {
+  width: 1.5rem;
+  -webkit-filter: opacity(80%);
+          filter: opacity(80%);
+  margin-right: .5rem;
+}
 /*# sourceMappingURL=ContactUs.css.map */

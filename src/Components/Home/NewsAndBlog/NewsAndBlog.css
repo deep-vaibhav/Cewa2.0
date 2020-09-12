@@ -1,5 +1,6 @@
 .newsandblog {
-  margin: 4rem auto;
+  margin: 0 auto;
+  margin-bottom: 9rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

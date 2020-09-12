@@ -27,7 +27,7 @@ class ContactUs extends React.Component {
                         <div className="contact-details">
                             <div className="details">
                                 <img src={address}></img>
-                                <p>653/A, Naiyyar Colony, Gonda pin - 27100</p>
+                                <p>653/A, Naiyyar Colony, Gonda pin - 271001</p>
                             </div>
                             <div className="details">
                                 <img src={phone}></img>

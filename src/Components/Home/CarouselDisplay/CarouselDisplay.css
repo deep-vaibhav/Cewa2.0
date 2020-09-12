@@ -50,9 +50,10 @@
   margin-top: 2.5rem;
 }
 
-.img_container .BannerText button {
+.img_container .BannerText a {
   background: #f78d2a;
   border: 2px solid rgba(255, 255, 255, 0.021);
+  border-radius: 1px;
   padding: .3rem;
   width: 8rem;
   margin-top: 1rem;
@@ -61,5 +62,6 @@
   font-family: 'Lora', serif !important;
   color: #373737;
   outline: none;
+  text-decoration: none;
 }
 /*# sourceMappingURL=CarouselDisplay.css.map */
