@@ -26,7 +26,7 @@ import image15 from "../../../src/Assets/image/event1/15.jpg";
 
 
 
-import event2img1 from "../../../src/Assets/image/event2/picture1.jpg";
+import event2img1 from "../../../src/Assets/image/event2/picture3.jpg";
 import event2img3 from "../../../src/Assets/image/event2/picture3.jpg";
 
 
