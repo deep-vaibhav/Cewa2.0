@@ -153,21 +153,21 @@ class Events extends React.Component {
                     </Col>
                 </Row>
                 <Slider {...settings4} className="slider">
-                    <img src={image1}></img>
-                    <img src={image2}></img>
-                    <img src={image3}></img>
-                    <img src={image4}></img>
-                    <img src={image5}></img>
-                    <img src={image6}></img>
-                    <img src={image7}></img>
-                    <img src={image8}></img>
-                    <img src={image9}></img>
-                    <img src={image10}></img>
-                    <img src={image11}></img>
-                    <img src={image12}></img>
-                    <img src={image13}></img>
-                    <img src={image14}></img>
-                    <img src={image15}></img>
+                    <img src={image1} alt="event-image"></img>
+                    <img src={image2} alt="event-image"></img>
+                    <img src={image3} alt="event-image"></img>
+                    <img src={image4} alt="event-image"></img>
+                    <img src={image5} alt="event-image"></img>
+                    <img src={image6} alt="event-image"></img>
+                    <img src={image7} alt="event-image"></img>
+                    <img src={image8} alt="event-image"></img>
+                    <img src={image9} alt="event-image"></img>
+                    <img src={image10} alt="event-image"></img>
+                    <img src={image11} alt="event-image"></img>
+                    <img src={image12} alt="event-image"></img>
+                    <img src={image13} alt="event-image"></img>
+                    <img src={image14} alt="event-image"></img>
+                    <img src={image15} alt="event-image"></img>
                 </Slider>
 
 
@@ -181,8 +181,8 @@ class Events extends React.Component {
                     </ul>
                 </Row>
                 <Slider {...settings3} className="slider">
-                    <img src={event2img1}></img>
-                    <img src={event2img3}></img>
+                    <img src={event2img1} alt="event-image"></img>
+                    <img src={event2img3} alt="event-image"></img>
                     
                 </Slider>
 
@@ -196,10 +196,10 @@ class Events extends React.Component {
                     </ul>
                 </Row>
                 <Slider {...settings2} className="slider">
-                    <img src={event3img1}></img>
-                    <img src={event3img2}></img>
-                    <img src={event3img3}></img>
-                    <img src={event3img4}></img>
+                    <img src={event3img1} alt="event-image"></img>
+                    <img src={event3img2} alt="event-image"></img>
+                    <img src={event3img3} alt="event-image"></img>
+                    <img src={event3img4} alt="event-image"></img>
                 </Slider>
 
 
@@ -210,16 +210,16 @@ class Events extends React.Component {
                     </ul>
                 </Row>
                 <Slider {...settings2} className="slider">
-                    <img src={event4img1}></img>
-                    <img src={event4img2}></img>
-                    <img src={event4img3}></img>
-                    <img src={event4img4}></img>
-                    <img src={event4img5}></img>
-                    <img src={event4img6}></img>
-                    <img src={event4img7}></img>
-                    <img src={event4img8}></img>
-                    <img src={event4img9}></img>
-                    <img src={event4img10}></img>
+                    <img src={event4img1} alt="Event-image"></img>
+                    <img src={event4img2} alt="Event-image"></img>
+                    <img src={event4img3} alt="Event-image"></img>
+                    <img src={event4img4} alt="Event-image"></img>
+                    <img src={event4img5} alt="Event-image"></img>
+                    <img src={event4img6} alt="Event-image"></img>
+                    <img src={event4img7} alt="Event-image"></img>
+                    <img src={event4img8} alt="Event-image"></img>
+                    <img src={event4img9} alt="Event-image"></img>
+                    <img src={event4img10} alt="event-image"></img>
                 </Slider>
 
 
@@ -231,9 +231,9 @@ class Events extends React.Component {
                     </ul>
                 </Row>
                 <Slider {...settings4} className="slider">
-                    <img src={event5img1}></img>
-                    <img src={event5img2}></img>
-                    <img src={event5img3}></img>
+                    <img src={event5img1} alt="event-image"></img>
+                    <img src={event5img2} alt="event-image"></img>
+                    <img src={event5img3} alt="event-image"></img>
                 </Slider>
 
 
@@ -245,10 +245,10 @@ class Events extends React.Component {
                     </ul>
                 </Row>
                 <Slider {...settings4} className="slider">
-                    <img src={event6img1}></img>
-                    <img src={event6img2}></img>
-                    <img src={event6img3}></img>
-                    <img src={event6img4}></img>
+                    <img src={event6img1} alt="event-image"></img>
+                    <img src={event6img2} alt="event-image"></img>
+                    <img src={event6img3} alt="event-image"></img>
+                    <img src={event6img4} alt="event-image"></img>
                 </Slider>
 
 
@@ -260,19 +260,19 @@ class Events extends React.Component {
                     </ul>
                 </Row>
                 <Slider {...settings2} className="slider">
-                    <img src={event7img1}></img>
-                    <img src={event7img2}></img>
-                    <img src={event7img3}></img>
-                    <img src={event7img4}></img>
-                    <img src={event7img5}></img>
-                    <img src={event7img6}></img>
-                    <img src={event7img7}></img>
-                    <img src={event7img8}></img>
-                    <img src={event7img9}></img>
-                    <img src={event7img10}></img>
-                    <img src={event7img11}></img>
-                    <img src={event7img12}></img>
-                    <img src={event7img13}></img>
+                    <img src={event7img1} alt="event-image"></img>
+                    <img src={event7img2} alt="event-image"></img>
+                    <img src={event7img3} alt="event-image"></img>
+                    <img src={event7img4} alt="event-image"></img>
+                    <img src={event7img5} alt="event-image"></img>
+                    <img src={event7img6} alt="event-image"></img>
+                    <img src={event7img7} alt="event-image"></img>
+                    <img src={event7img8} alt="event-image"></img>
+                    <img src={event7img9} alt="event-image"></img>
+                    <img src={event7img10} alt="event-image"></img>
+                    <img src={event7img11} alt="event-image"></img>
+                    <img src={event7img12} alt="event-image"></img>
+                    <img src={event7img13} alt="event-image"></img>
                 </Slider>
 
 
@@ -283,10 +283,10 @@ class Events extends React.Component {
                     </ul>
                 </Row>
                 <Slider {...settings4} className="slider">
-                    <img src={event8img1}></img>
-                    <img src={event8img2}></img>
-                    <img src={event8img3}></img>
-                    <img src={event8img4}></img>
+                    <img src={event8img1} alt="event-image"></img>
+                    <img src={event8img2} alt="event-image"></img>
+                    <img src={event8img3} alt="event-image"></img>
+                    <img src={event8img4} alt="event-image"></img>
                 </Slider>
 
 
@@ -298,9 +298,9 @@ class Events extends React.Component {
                     </ul>
                 </Row>
                 <Slider {...settings4} className="slider">
-                    <img src={event9img1}></img>
-                    <img src={event9img2}></img>
-                    <img src={event9img3}></img>
+                    <img src={event9img1} alt="Event-image"></img>
+                    <img src={event9img2} alt="Event-image"></img>
+                    <img src={event9img3} alt="Event-image"></img>
                 </Slider>
 
 
@@ -313,15 +313,15 @@ class Events extends React.Component {
                     </ul>
                 </Row>
                 <Slider {...settings} className="slider">
-                    <img src={event10img1}></img>
-                    <img src={event10img2}></img>
-                    <img src={event10img3}></img>
-                    <img src={event10img4}></img>
-                    <img src={event10img5}></img>
-                    <img src={event10img6}></img>
-                    <img src={event10img7}></img>
-                    <img src={event10img8}></img>
-                    <img src={event10img9}></img>
+                    <img src={event10img1} alt="event-image"></img>
+                    <img src={event10img2} alt="event-image"></img>
+                    <img src={event10img3} alt="event-image"></img>
+                    <img src={event10img4} alt="event-image"></img>
+                    <img src={event10img5} alt="event-image"></img>
+                    <img src={event10img6} alt="event-image"></img>
+                    <img src={event10img7} alt="event-image"></img>
+                    <img src={event10img8} alt="event-image"></img>
+                    <img src={event10img9} alt="event-image"></img>
                 </Slider>
 
 
@@ -332,9 +332,9 @@ class Events extends React.Component {
                     </ul>
                 </Row>
                 <Slider {...settings4} className="slider">
-                    <img src={event11img1}></img>
-                    <img src={event11img2}></img>
-                    <img src={event11img3}></img>
+                    <img src={event11img1} alt="event-image"></img>
+                    <img src={event11img2} alt="event-image"></img>
+                    <img src={event11img3} alt="event-image"></img>
                 </Slider>
 
 
@@ -346,8 +346,8 @@ class Events extends React.Component {
                     </ul>
                 </Row>
                 <Slider {...settings3} className="slider">
-                    <img src={event12img1}></img>
-                    <img src={event12img3}></img>
+                    <img src={event12img1} alt="event-image"></img>
+                    <img src={event12img3} alt="event-image"></img>
                 </Slider>
             </Container>
 
