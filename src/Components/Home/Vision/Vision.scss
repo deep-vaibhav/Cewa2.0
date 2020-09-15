@@ -1,92 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .Vis {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .vision-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    min-width: 200px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-width: 200px;
 }
 
 .vision-text {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .vision-body {
-    h2 {
-        font-weight: 700;
-        font-size: 3.5vw;
-        text-transform: uppercase;
-        color: #222222d7;
-    }
+  h2 {
+    font-weight: 700;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    color: #222222d7;
+  }
 
-    p {
-        text-align: justify;
-        padding-right: 4%;
-        margin: 2rem auto;
-        font-size: 2.3vmin;
-        line-height: 1.7rem;
-    }
+  p {
+    text-align: justify;
+    padding-right: 4%;
+    margin: 2rem auto;
+    font-size: 2.3vmin;
+    line-height: 1.7rem;
+  }
 }
 
 .quote {
-    background: rgb(241, 241, 241);
-    padding: 5% 0 5% 35%;
-    position: relative;
-    z-index: -2;
-    margin: 8rem 0;
-    
-    img {
-        position: absolute;
-        width: 8%;
-        z-index: -1;
-        opacity: 0.05;
-        left: 50%;
-    }
+  background: rgb(241, 241, 241);
+  padding: 5% 0 5% 35%;
+  position: relative;
+  z-index: -2;
+  margin: 8rem 0;
 
-    p {
-        font-family: 'Cookie', cursive !important;
-        font-size: 4vw;
-        letter-spacing: 3px;
-        align-self: center;
-    }
+  img {
+    position: absolute;
+    width: 8%;
+    z-index: -1;
+    opacity: 0.05;
+    left: 50%;
+  }
+
+  p {
+    font-family: "Cookie", cursive !important;
+    font-size: 4vw;
+    letter-spacing: 3px;
+    align-self: center;
+  }
 }
 .whatDrivesUs {
-    margin-bottom: 8rem;
-    
-    img {
-        width: 70%;
-    }
+  margin-bottom: 8rem;
 
-    h1 {
-        font-weight: 700;
-        font-size: 3.5vw;
-        text-transform: uppercase;
-        color: #222222d7;
-        margin-bottom: 3rem;
-    }
+  img {
+    width: 70%;
+  }
 
-    .col1 {
-        margin-left: 10%;
-    }
-    li, p {
-        margin-bottom: 1rem;
-        line-height: 1.7rem;
-        text-align: justify;
-    }
+  h1 {
+    font-weight: 700;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    color: #222222d7;
+    margin-bottom: 3rem;
+  }
 
-    p {
-        margin-top: 3rem;
-        text-align: justify;
-    }
+  .col1 {
+    margin-left: 10%;
+  }
+  li,
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.7rem;
+    text-align: justify;
+  }
+
+  p {
+    margin-top: 3rem;
+    text-align: justify;
+  }
+}
+@media (max-width: 1920px) {
+  .col {
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+  }
+  img {
+    width: 47%;
+  }
+}
+@media (max-width: 1366px) {
+  .col {
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+  }
+  img {
+    width: 83%;
+  }
 }
