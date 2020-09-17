@@ -1,21 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-* {
-  color: #373737 !important;
-  font-family: 'Montserrat', sans-serif !important;
-}
-
 .News-lg {
   margin: 2rem;
+  font-family: "MONTSERRAT";
 }
 
 .News-lg .Title {
   text-align: center;
   margin-bottom: 1rem;
   font-family: serif;
+  color: #2c2c9c;
 }
 
 .News-lg .Heading {
   background-color: #2c2c9c;
+  color: #fff;
   text-align: center;
   padding: 15px;
 }

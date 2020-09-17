@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +19,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: whitesmoke;
+  background: #f5f5f5;
+  padding: 0 3.5rem;
+  height: 5rem;
 }
 
 .Nav-button {
@@ -42,6 +45,8 @@
   list-style: none;
   font-weight: 500;
   margin-right: 4rem;
+  font-family: 'Lora', serif !important;
+  font-weight: 200;
 }
 
 .Nav-li a {
@@ -49,26 +54,101 @@
 }
 
 .Nav-title img {
-  width: 12.5vw;
-  height: 6rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.Counter {
-  margin-right: 1rem;
+  width: 11vw;
+  min-width: 140px;
 }
 
 @media (max-width: 1080px) {
+  .Nav-li li {
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .Nav-li {
-    display: none;
+    position: absolute;
+    right: 0px;
+    height: 85.5vh;
+    top: 13vh;
+    z-index: 100;
+    background: whitesmoke;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+  }
+  .Nav-li li {
+    opacity: 0;
+    margin-right: 0;
   }
   .Nav-button {
     display: block;
-    margin-left: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
   }
-  .Nav-title {
-    margin-left: -65vw;
+  .Nav-button div {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
   }
+}
+
+.nav-active {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+@-webkit-keyframes navlinkFade {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes navlinkFade {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+          transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  -webkit-transform: rotate(45deg) translate(-5px, -6px);
+          transform: rotate(45deg) translate(-5px, -6px);
 }
 /*# sourceMappingURL=Nav.css.map */

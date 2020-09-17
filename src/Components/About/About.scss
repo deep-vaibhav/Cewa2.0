@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lora' !important;
 }
 .About {
     padding: 5%;
@@ -21,6 +22,7 @@
         text-transform: uppercase;
         color: #222222d7;
         text-align: right;
+        font-family: 'Lora' !important;
     }
     p {
         font-size: 2.3vmin;
@@ -28,6 +30,7 @@
         text-align: justify;
         margin: 2rem auto;
         line-height: 1.7rem;
+        font-family: 'Lora' !important;
     }
 }
 

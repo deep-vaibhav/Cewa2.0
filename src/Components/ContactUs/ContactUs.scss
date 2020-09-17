@@ -6,4 +6,42 @@
 
 .contactus {
     margin: 5rem !important;
+
+    img {
+        width: 85%;
+    }
+
+    .contact-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .social {
+        margin: 1.2rem 0;
+    }
+    .icons {
+        display: flex;
+        img {
+            width: 1.5rem;
+            filter: opacity(60%);
+            cursor: pointer;
+        }
+        .insta {
+            margin: 0 1rem;
+        }
+        img:hover {
+            filter: opacity(100%);
+        }
+    }
+    .details {
+        display: flex;
+        align-items: flex-start;
+        margin: .2rem 0;
+        img {
+            width: 1.5rem;
+            filter: opacity(80%);
+            margin-right: .5rem;
+        }
+        
+    }
 }

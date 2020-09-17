@@ -1,16 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-* {
-  color: #373737;
-  font-family: 'Montserrat', sans-serif !important;
-}
-
 .newsandblog {
-  margin-bottom: 5rem;
+  margin: 0 auto;
+  margin-bottom: 9rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 80vw;
 }
 
 .newsandblog .News {
@@ -18,13 +14,14 @@
       flex-wrap: wrap;
   float: left;
   margin-right: 7%;
-  font-family: "TrebuchetMS";
+  font-family: "montserrat";
   width: 46.5%;
   min-width: 300px;
   margin-bottom: 1rem;
 }
 
 .newsandblog .News .head {
+  color: #f6ab6c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,15 +38,20 @@
   -ms-flex-item-align: end;
       align-self: flex-end;
   margin: 0;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .newsandblog .News .item {
+  -webkit-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 1rem;
+  background: #6cb0ab1c;
+  height: 161px;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #f1a048;
 }
 
 .newsandblog .News .item .date {
@@ -60,7 +62,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: radial-gradient(circle, #ffc000bd 16%, #f8902cbd 85%);
+  background: #dddddd;
+  color: #000;
   display: inline-block;
   margin-right: 3%;
   min-height: 108px;
@@ -77,7 +80,7 @@
 }
 
 .newsandblog .News .item .date span hr {
-  background-color: #f1a048;
+  background-color: #68b0ab;
 }
 
 .newsandblog .News .item .date .month {
@@ -89,6 +92,7 @@
 }
 
 .newsandblog .News .item .details {
+  color: #000;
   font-size: 13px;
   display: inline-block;
   line-height: 18px;
@@ -106,20 +110,21 @@
 }
 
 .newsandblog .News .item .details h5 {
-  font-family: "TrebuchetMS";
+  font-family: "montserrat";
   margin-bottom: 0px;
   cursor: pointer;
   font-size: 20px;
+  color: #8fc0a9;
 }
 
 .newsandblog hr {
-  background-color: #f1a048;
+  background-color: #68b0ab;
 }
 
 .newsandblog .blog {
   float: left;
   width: 46.5%;
-  font-family: "TrebuchetMS";
+  font-family: "montserrat";
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -128,7 +133,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #f60;
+  color: #f6ab6c;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -142,10 +147,16 @@
   margin: 0;
   -ms-flex-item-align: end;
       align-self: flex-end;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .newsandblog .blog .item {
+  -webkit-transition: all 700ms ease-in;
+  transition: all 700ms ease-in;
   cursor: pointer;
+  height: 144px;
+  background: #f6ab6c1f;
   margin-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -167,7 +178,7 @@
 
 .newsandblog .blog .item .item-text h3 {
   font-size: 1.2rem;
-  color: #f8f9fa;
+  color: #8fc0a9;
   margin-bottom: 1;
 }
 
@@ -187,11 +198,11 @@
 
 .newsandblog .blog .item .item-text .user p {
   margin: 0;
-  color: #acacac;
+  color: #000;
   margin-left: 0.5rem;
   font-size: 10px;
   letter-spacing: 0.1rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: montserrat;
 }
 
 .newsandblog .blog .item .item-text .date {
@@ -212,11 +223,11 @@
 
 .newsandblog .blog .item .item-text .date p {
   margin: 0;
-  color: #acacac;
+  color: #000;
   margin-left: 0.5rem;
   font-size: 10px;
   letter-spacing: 0.1rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: montserrat;
 }
 
 .newsandblog .blog .item .item-text .article {
@@ -225,14 +236,14 @@
 
 .newsandblog .blog .item .item-text .article p {
   font-size: 13px;
-  color: #e9ecef;
+  color: #000;
   line-height: 1rem;
   margin-bottom: 0;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "montserrat", sans-serif;
 }
 
 .newsandblog .blog .item .item-text .article p span {
-  color: #f60;
+  color: #f90;
   font-weight: 400;
   cursor: pointer;
 }
@@ -249,6 +260,34 @@
   .newsandblog .blog .item .item-text {
     width: 100%;
     padding-left: 0;
+  }
+}
+
+@media (max-width: 1920px) {
+  .blogMain {
+    overflow: hidden;
+    height: 438px;
+  }
+  .blogMain .item .item-img {
+    height: 146px;
+  }
+  .NewsMain {
+    overflow-y: hidden;
+    height: 438px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .blogMain {
+    overflow: hidden;
+    height: 463px;
+  }
+  .blogMain .item .item-img img {
+    max-height: 142px;
+  }
+  .NewsMain {
+    overflow-y: hidden;
+    height: 463px;
   }
 }
 /*# sourceMappingURL=NewsAndBlog.css.map */

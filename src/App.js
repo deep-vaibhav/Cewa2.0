@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 
 import Nav from "./Components/Nav/Nav";
@@ -10,13 +10,13 @@ import Membership from "./Components/Memebership/Memebership";
 import ContactUs from "./Components/ContactUs/ContactUs";
 
 function App() {
-  const [url, seturl] = useState("");
-  const handleUrl = (data) => {
-    seturl(data);
-  };
+  // const [url, seturl] = useState("");
+  // const handleUrl = (data) => {
+  //   seturl(data);
+  // };
 
   return (
-    <Router style={{width: '100%'}}>
+    <Router style={{ width: "100%" }}>
       <Nav />
       <Switch>
         <Route exact path="/">

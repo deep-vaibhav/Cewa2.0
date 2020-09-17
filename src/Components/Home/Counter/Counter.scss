@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.counter {
+    padding: 5rem 5rem !important;
+    background: rgb(235,128,48);
+    background: linear-gradient(71deg, rgba(235,128,48,1) 0%, rgba(235,128,48,1) 0%, rgba(231,201,26,1) 100%);
+    h1, p {
+        text-align: center;
+        color: whitesmoke;
+    }
+    h1 {
+        font-size: 3.7rem;
+        font-weight: 700;
+    }
+}

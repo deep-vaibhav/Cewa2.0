@@ -39,6 +39,16 @@
         color: whitesmoke;
         font-size: 18px;
     }
+    li, a {
+        color: rgba(245, 245, 245, 0.527);
+        text-decoration: none;
+        font-size: 14px;
+        margin-top: .6rem;
+        list-style: none;
+    }
+    a:hover {
+        color: whitesmoke;
+    }
 }
 
 .FooterBottom {

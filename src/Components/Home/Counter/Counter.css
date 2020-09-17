@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.counter {
+  padding: 5rem 5rem !important;
+  background: #eb8030;
+  background: linear-gradient(71deg, #eb8030 0%, #eb8030 0%, #e7c91a 100%);
+}
+
+.counter h1, .counter p {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.counter h1 {
+  font-size: 3.7rem;
+  font-weight: 700;
+}
+/*# sourceMappingURL=Counter.css.map */
