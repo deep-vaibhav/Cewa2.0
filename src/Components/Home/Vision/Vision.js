@@ -24,7 +24,7 @@ class Vision extends React.Component {
       <Container fluid className="Vis">
         <Row className="vision-text">
           <Col md className="vision-img">
-            <img src="" alt="img"></img>
+            <img src="https://res.cloudinary.com/shivam1534/image/upload/v1601122017/vision_cwt18n.jpg" alt="img"></img>
           </Col>
           <Col md className="vision-body">
             <motion.h2 className="vis-text" animate={{}}>
@@ -88,7 +88,7 @@ class Vision extends React.Component {
             </p>
           </Col>
           <Col md className="col2">
-            <img src="" alt="img2"></img>
+            <img src="https://res.cloudinary.com/shivam1534/image/upload/v1601122009/driveimg_t5scpu.jpg" alt="img2"></img>
           </Col>
         </Row>
       </Container>
