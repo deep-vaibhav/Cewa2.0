@@ -1,106 +1,142 @@
-
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .Footer {
-    background: #373737;
+  background: #373737;
 }
 
 .FooterTop {
-    padding: 2% 10% !important;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  .footerRight {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex: 0.4;
+  }
+  .ContactForm {
+    flex: 0.3;
+  }
 }
 
 .PageLinks {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    h1 {
-        color: whitesmoke;
-        font-size: 18px;
-    }
+  h1 {
+    color: whitesmoke;
+    font-size: 18px;
+  }
 
-    a {
-        color: rgba(245, 245, 245, 0.527);
-        text-decoration: none;
-        font-size: 14px;
-        margin-top: .6rem;
-    }
-    a:hover {
-        color: whitesmoke;
-    }
+  a {
+    color: rgba(245, 245, 245, 0.527);
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 0.6rem;
+  }
+  a:hover {
+    color: whitesmoke;
+  }
 }
 
 .SocialMedia {
-    h1 {
-        color: whitesmoke;
-        font-size: 18px;
-    }
-    li, a {
-        color: rgba(245, 245, 245, 0.527);
-        text-decoration: none;
-        font-size: 14px;
-        margin-top: .6rem;
-        list-style: none;
-    }
-    a:hover {
-        color: whitesmoke;
-    }
+  h1 {
+    color: whitesmoke;
+    font-size: 18px;
+  }
+  li,
+  a {
+    color: rgba(245, 245, 245, 0.527);
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 0.6rem;
+    list-style: none;
+  }
+  a:hover {
+    color: whitesmoke;
+  }
 }
 
 .FooterBottom {
-    background: #222222;
-    padding: 1rem 0;
-    
-    p {
-        color: whitesmoke;
-        margin: 0 auto;
-        font-size: 14px;
-    }
+  background: #222222;
+  padding: 1rem 0;
+
+  p {
+    color: whitesmoke;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+  }
 }
 
 .ContactForm {
-    label {
-        color: rgba(245, 245, 245, 0.699);
-        margin-top: 1rem;
-        font-size: 14px;
-    }
-    h1 {
-        color: whitesmoke;
-        font-size: 30px;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-    }
+  label {
+    color: rgba(245, 245, 245, 0.699);
+    margin-top: 1rem;
+    font-size: 14px;
+  }
+  h1 {
+    color: whitesmoke;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
 
-    input, textarea {
-        background: none;
-        border: none;
-        border-bottom: 2px solid rgb(107, 107, 107);
-        width: 20rem;
-        color: whitesmoke;
-        outline: none;
-        font-size: 14px;
-    }
+  input,
+  textarea {
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(107, 107, 107);
+    width: 20rem;
+    color: whitesmoke;
+    outline: none;
+    font-size: 14px;
+  }
 
-    button {
-        background: rgb(247, 141, 42);
-        border: 2px solid rgba(255, 255, 255, 0.021);
-        padding: .3rem;
-        width: 6rem;
-        margin-top: 1rem;
-        font-size: 14px;
-        font-weight: 600;
-        color: #373737;
-    }
+  button {
+    background: rgb(247, 141, 42);
+    border: 2px solid rgba(255, 255, 255, 0.021);
+    padding: 0.3rem;
+    width: 6rem;
+    margin-top: 1rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: #373737;
+  }
 
-    button:hover {
-        transform: translateY(-10%);
-    }
+  button:hover {
+    transform: translateY(-10%);
+  }
 
-    i {
-        color: white;
+  i {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .FooterTop {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footerRight {
+    margin-bottom: 4rem;
+    .SocialMedia {
+      margin-left: 6rem;
     }
+  }
+  .ContactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
