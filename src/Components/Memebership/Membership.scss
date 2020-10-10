@@ -6,39 +6,44 @@
 
 .memForm {
   background: rgb(163, 221, 255);
-  width: 85%;
+  width: 60%;
+  min-width: 21rem;
   margin: 2rem auto;
   border-radius: 3px;
+  padding-bottom: 2rem;
 
   form {
     width: 100%;
   }
 
-  img {
-    width: 10rem;
-    margin: 0 auto;
-    margin-left: 40%;
+  .Logo {
+    display: grid;
+    place-items: center;
+    img {
+      width: 200px;
+    }
   }
 
   h2 {
     text-transform: uppercase;
-    font-size: 5vmin;
+    font-size: 35px;
     font-weight: 600;
     text-align: center;
   }
 
   label {
-    font-size: .9rem;
+    font-size: 0.9rem;
     color: #373737d8;
-    margin: .7rem 17.7rem;
+    margin-top: 1rem;
   }
-  input, textarea, select {
+  input,
+  textarea,
+  select {
     background: none;
     border: none;
     outline: none;
     border-bottom: 1.2px solid rgba(46, 46, 46, 0.596);
     width: 24rem;
-    margin: 0 17.7rem;
   }
 
   .formBottom {
@@ -47,8 +52,7 @@
     margin: 2rem auto;
 
     input {
-      width: 7rem;
-      margin: 0;
+      width: 5rem;
     }
     p {
       text-align: justify;
@@ -58,8 +62,62 @@
   button {
     background: white;
     border: 1px solid white;
-    margin: 2rem 42%;
-    padding: .5rem;
+    padding: 0.5rem;
     width: 10rem;
+    margin: 2rem auto;
+    display: grid;
+  }
+  .inputs {
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .memForm {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 26px !important;
+  }
+  input,
+  textarea,
+  select {
+    width: 20rem !important;
+  }
+  .Logo {
+    img {
+      width: 150px !important;
+    }
+  }
+  .memForm {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  input,
+  textarea,
+  select {
+    width: 20rem !important;
+  }
+  .reason_textInput {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  input,
+  textarea,
+  select {
+    width: 18rem !important;
+  }
+
+  .Logo {
+    img {
+      width: 130px !important;
+    }
   }
 }

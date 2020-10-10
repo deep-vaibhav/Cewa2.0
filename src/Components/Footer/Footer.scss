@@ -133,10 +133,56 @@
     .SocialMedia {
       margin-left: 6rem;
     }
+
+    h1 {
+      font-size: 20px !important;
+    }
+
+    a {
+      font-size: 15px;
+    }
   }
   .ContactForm {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    h1 {
+      font-size: 24px !important;
+    }
+    label,
+    input {
+      font-size: 15px;
+    }
+
+    button {
+      font-size: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .ContactForm {
+    h1 {
+      font-size: 16px !important;
+    }
+    label,
+    input {
+      font-size: 13px;
+    }
+
+    button {
+      font-size: 13px;
+    }
+  }
+
+  .footerRight {
+    h1 {
+      font-size: 15px !important;
+    }
+
+    a {
+      font-size: 13px;
+    }
   }
 }

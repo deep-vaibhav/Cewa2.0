@@ -40,7 +40,6 @@ class NewsAndBlog extends React.Component {
         <div className="News">
           <div className="head">
             <h2>Latest News</h2>
-            <h5>View All</h5>
           </div>
           <div className="NewsMain">
             <div className="item" style={{ transform: this.state.NewsStyle }}>
@@ -243,7 +242,6 @@ class NewsAndBlog extends React.Component {
         <div className="blog">
           <div className="head">
             <h2>Recent Events</h2>
-            <h5>View All</h5>
           </div>
           <div
             className="blogMain"
@@ -255,7 +253,10 @@ class NewsAndBlog extends React.Component {
           >
             {data.blog.map((item, i) => {
               return (
-                <div className="item" style={{ transform: this.state.style }}>
+                <div
+                  className="item"
+                  style={{ transform: this.state.style, overflow: "scroll" }}
+                >
                   <div className="item-img">
                     <img src={item.img} key={i} alt="blog1"></img>
                   </div>

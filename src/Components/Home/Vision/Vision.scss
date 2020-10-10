@@ -124,12 +124,12 @@
     margin-top: 1rem;
 
     h2 {
-      font-size: 42px;
+      font-size: 42px !important;
     }
   }
   .whatDrivesUs {
     h1 {
-      font-size: 42px;
+      font-size: 42px !important;
     }
   }
   .quote {
@@ -142,7 +142,7 @@
 @media screen and (max-width: 460px) {
   .vision-body {
     h2 {
-      font-size: 32px;
+      font-size: 32px !important;
     }
     p {
       font-size: 15px;
@@ -155,7 +155,7 @@
     padding: 0 2rem;
 
     h1 {
-      font-size: 32px;
+      font-size: 32px !important;
     }
 
     p,
@@ -167,6 +167,8 @@
     margin-top: 1rem;
   }
   .quote {
+    padding: 3rem 0;
+    margin: 5rem 0;
     p {
       font-size: 40px;
     }
