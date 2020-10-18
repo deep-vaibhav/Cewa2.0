@@ -13,6 +13,7 @@ import twt from "../../../src/Assets/image/twitter.svg";
 import address from "../../../src/Assets/image/address.svg";
 import phone from "../../../src/Assets/image/phone.svg";
 import email from "../../../src/Assets/image/email.svg";
+import Map from "../Map/Map";
 
 class ContactUs extends React.Component {
   render() {

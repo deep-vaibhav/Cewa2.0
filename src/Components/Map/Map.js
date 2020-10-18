@@ -1,48 +1,35 @@
-import React, {Component, createRef } from "react";
+import React from "react";
+import mapboxgl from "mapbox-gl";
 
+mapboxgl.accessToken =
+  "pk.eyJ1IjoidmFpYmhhdmQ5IiwiYSI6ImNrZzBxd3JjeDBma3UydW8yNm5kNjIzb3oifQ.LnwTWttWhyLPcs7VwnpB7Q";
 
-class GoogleMap extends Component {
+class Map extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      lng: 5,
+      lat: 34,
+      zoom: 2,
+    };
+  }
 
-    googleMapRef = createRef()
+  componentDidMount() {
+    const map = new mapboxgl.Map({
+      container: this.mapContainer,
+      style: "mapbox://styles/mapbox/streets-v11",
+      center: [this.state.lng, this.state.lat],
+      zoom: this.state.zoom,
+    });
+  }
 
-    createGoogleMap = () => 
-        new window.google.maps.Map(this.googleMapRef.current, {
-            zoom: 16,
-            center: {
-                lat: 27.123567,
-                lng: 81.944663,
-            },
-            disableDefaultUI: true,
-        })
-    
-        componentDidMount() {
-            const googleMapScript = document.createElement('script');
-
-            googleMapScript.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB0SpGRVyXAWcyt9-qiWeZvVXDcuou_3uw&libraries=places';
-
-            window.document.body.appendChild(googleMapScript);
-
-            googleMapScript.addEventListener('load', () => {
-                this.googleMap = this.createGoogleMap();
-                this.marker = this.createMarker();
-            });
-        }
-
-        createMarker = () => 
-            new window.google.maps.Marker({
-                position: { lat: 27.123567, lng: 81.944663 },
-                map: this.googleMap,
-            })
-
-    render() {
-        return (
-            <div 
-                id="google-map"
-                ref={this.googleMapRef}
-                style={{width: '600px', height: '500px'}}
-            />
-        );
-    }
+  render() {
+    return (
+      <div>
+        <div ref={(el) => (this.mapContainer = el)} />
+      </div>
+    );
+  }
 }
 
-export default GoogleMap;
+export default Map;
