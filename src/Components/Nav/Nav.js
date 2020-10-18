@@ -1,81 +1,57 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./Nav.css";
+import "./Nav.scss";
 import logo from "../../Assets/image/cewa.png";
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import MenuIcon from "@material-ui/icons/Menu";
+import CloseIcon from "@material-ui/icons/Close";
 
-const Nav = () => {
-  
+function Nav() {
+  const [isClicked, setIsClicked] = useState(false);
+
+  const handleMenuClick = () => {
+    if (isClicked) {
+      setIsClicked(false);
+    } else {
+      setIsClicked(true);
+    }
+  };
+
+  const handleNavLinkClick = () => {
+    setIsClicked(false);
+  };
+
   return (
     <div className="Nav">
-
-      <div class="Nav-button">
-        <div className="nav-line"></div>
-        <div className="nav-line"></div>
-        <div className="nav-line"></div>
-      </div>
-
       <div className="Nav-title">
-        <a href="https://www.cewa.ga">
+        <Link to="" onClick={handleNavLinkClick}>
           <img src={logo} alt="logo" />
-        </a>
+        </Link>
       </div>
-      <div className="Nav-li">
-        <Link to="./about">
+
+      <div className={isClicked ? "Nav-li-active" : "Nav-li"}>
+        <Link to="./about" onClick={handleNavLinkClick}>
           <li>About us</li>
         </Link>
-        <Link to="./Events">
+        <Link to="./Events" onClick={handleNavLinkClick}>
           <li>Events</li>
         </Link>
-        {/* <Link to="./gallery">
-          <li>Gallery</li>
-        </Link> */}
-        <Link to="./membership">
+        <Link to="./membership" onClick={handleNavLinkClick}>
           <li>Join Us</li>
         </Link>
-
-        <Link to="./contacts">
+        <Link to="./contacts" onClick={handleNavLinkClick}>
           <li>Contact Us</li>
         </Link>
       </div>
-      {/* <div className="Counter">
-        <div className="counter-text">
-          <p>Total Visitors</p>
-        </div>
-        <div className="Counter-image">
-          <img
-            src="https://counter2.stat.ovh/private/freecounterstat.php?c=zhupfbms3z214j3mazufyphtq7eylhze"
-            border="0"
-            title="free counter"
-            alt="free counter"
-          />
-        </div>
-      </div> */}
-      {/* <div className="Nav-button" onClick={onHandleButton}>
-        <h1>≡</h1>
-        {NavButton && (
-          <div className="Nav-button-list">
-            <Link to="./about">
-              <li>About us</li>
-            </Link>
-            <Link to="./Programs">
-              <li>Our Program</li>
-            </Link>
-            <Link to="./gallery">
-              <li>Gallery</li>
-            </Link>
-            <Link to="./membership">
-              <li>For Members</li>
-            </Link>
-            <Link to="./contacts">
-              <li>Contact Us</li>
-            </Link>
-          </div>
-        )}
-      </div> */}
+      <div className="menu-icon">
+        <a onClick={handleMenuClick}>
+          {isClicked ? (
+            <CloseIcon className="menu_icon" />
+          ) : (
+            <MenuIcon className="menu_icon" />
+          )}
+        </a>
+      </div>
     </div>
   );
-};
+}
 export default Nav;

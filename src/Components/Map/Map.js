@@ -1,19 +1,35 @@
 import React from "react";
+import mapboxgl from "mapbox-gl";
 
-import {Map, GoogleApiWrapper } from 'google-maps-react';
+mapboxgl.accessToken =
+  "pk.eyJ1IjoidmFpYmhhdmQ5IiwiYSI6ImNrZzBxd3JjeDBma3UydW8yNm5kNjIzb3oifQ.LnwTWttWhyLPcs7VwnpB7Q";
 
-class MapContainer extends React.Component {
-    render() {
-        return (
-            <Map 
-                google={this.props.google}
-                zoom={10}
-                initialCenter={{ lat: 27.125652, lng: 81.944599}}
-            />
-        );
-    }
+class Map extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      lng: 5,
+      lat: 34,
+      zoom: 2,
+    };
+  }
+
+  componentDidMount() {
+    const map = new mapboxgl.Map({
+      container: this.mapContainer,
+      style: "mapbox://styles/mapbox/streets-v11",
+      center: [this.state.lng, this.state.lat],
+      zoom: this.state.zoom,
+    });
+  }
+
+  render() {
+    return (
+      <div>
+        <div ref={(el) => (this.mapContainer = el)} />
+      </div>
+    );
+  }
 }
 
-export default GoogleApiWrapper({
-    apiKey: 'AIzaSyB0SpGRVyXAWcyt9-qiWeZvVXDcuou_3uw'
-})(MapContainer)
+export default Map;
