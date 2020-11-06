@@ -1,12 +1,13 @@
-import React, { useRef } from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import React from "react";
+// import Container from "react-bootstrap/Container";
+// import Row from "react-bootstrap/Row";
+// import Col from "react-bootstrap/Col";
 
 import "./Vision.scss";
 
 import img from "../../../Assets/image/vision.jpg";
 import img2 from "../../../Assets/image/driveimg.jpg";
+// import img2 from '../../../Assets/image/driveimg.jpg'
 import quote from "../../../Assets/image/quote.png";
 
 import { motion } from "framer-motion";
